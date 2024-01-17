@@ -1,0 +1,36 @@
+.bar {
+    background-color: #157fc4;
+    color: white;
+    width: 100%;
+}
+
+.bar-content {
+    width: 1024px;
+    margin: 0 auto; /*Выравнивание блока по центру*/
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.bar-left {
+    display: flex;
+    gap: 10px;
+}
+
+.bar-right {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 1024px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
